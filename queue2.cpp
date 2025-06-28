@@ -1,16 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-struct Node{
+struct Node
+{
     int data;
-    Node* next;
-    Node(int n){
-        data=n;
-        next= nullptr;
+    Node *next;
+    Node(int n)
+    {
+        data = n;
+        next = nullptr;
     }
 };
 
-class queue{
-    Node* head;
-    Node* tail;
-})
+class queue
+{
+    Node *head;
+    Node *tail;
+};
